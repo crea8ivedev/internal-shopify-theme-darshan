@@ -316,6 +316,7 @@
 .image-with-text.image-with-text--overlap .backround-transparent,
 .image-with-text:not(.image-with-text--overlap) .background-transparent {
   background: transparent;
+  padding: 0;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */

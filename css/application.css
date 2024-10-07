@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    *,
+    ::before,
+    ::after {
+      @apply box-border;
+    }
+
+    html {
+        @apply scroll-smooth;
+      }
+    
+    body {
+    @apply p-0 m-0 font-body text-15 leading-25;
+    -webkit-font-smoothing:antialiased;
+    }
+
+    a {
+    @apply transition-all duration-100 ease-in-out cursor-pointer;
+    }
+
+    p,
+    p a {
+    @apply font-body text-15 leading-25 m-0 tracking-normal !text-black;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply m-0 font-heading;
+    }
+
+    .h1 {
+        @apply font-light tracking-normal font-heading text-32 leading-38 small_desktop:text-48 small_desktop:leading-[57px] desktop:text-48 desktop:leading-[60px];
+      }
+    
+    h1 {
+        @apply font-light tracking-normal font-heading text-24 leading-28 md:text-32 md:leading-38 desktop:text-48 desktop:leading-[60px];
+    }
+
+    h2,
+    .h2 {
+      @apply font-light tracking-normal font-heading text-24 leading-28 md:text-32 md:leading-38 desktop:text-48 desktop:leading-57;
+    }
+
+    h3 {
+        @apply font-light tracking-normal font-heading text-24 leading-28 desktop:text-32 desktop:leading-38;
+    }
+    
+    h4 {
+    @apply font-light tracking-normal font-heading text-24 leading-28 smscreen2:text-24 smscreen2:leading-28;
+    }
+
+    h5 {
+    @apply font-normal tracking-normal font-heading text-15 leading-25 large_desktop:text-22 large_desktop:leading-32;
+    }
+    .h5 {
+    @apply font-normal tracking-normal text-black font-body text-15 leading-25;
+    }
+
+    h6 {
+    @apply font-light tracking-normal font-heading text-14 leading-26 lgscreen:text-14 lgscreen:leading-24;
+    }
+}
+
+@layer utilities {
+
+/*heading style start*/ 
+.header__heading .header__inline-menu li a.list-menu__item {
+    @apply text-20 font-heading leading-30 text-dark_blue; 
+}
+/*heading style end*/ 
+}
+
