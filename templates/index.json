@@ -111,6 +111,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AdobeStock_539956343_1.png",
+        "extra_class": "ctm_text_left",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -158,6 +159,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AdobeStock_539956343_1.jpg",
+        "extra_class": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -205,6 +207,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AdobeStock_539956343_1_1.png",
+        "extra_class": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -252,6 +255,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AdobeStock_539956343_1_2.png",
+        "extra_class": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

@@ -90,11 +90,8 @@
 .image-with-text p {
     @apply text-grey;
 }
-.image-with-text__text-item.grid__item .image-with-text__content--desktop-left  {
-    @apply desktop:!pr-100 !pr-20 mdscreen5:!pt-30;
-}
-.image-with-text__text-item.grid__item .image-with-text__content--desktop-right  {
-    @apply desktop:!pl-100 !pl-20 mdscreen5:!pt-50;
+.ctm_zig_zag .image-with-text__text-item.grid__item .image-with-text__content--desktop-left  {
+    @apply desktop:pr-100 pr-20 mdscreen5:pt-30;
 }
 /* iamge with text end */
 
