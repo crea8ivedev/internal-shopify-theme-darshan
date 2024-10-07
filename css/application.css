@@ -15,8 +15,7 @@
       }
     
     body {
-    @apply p-0 m-0 font-body text-15 leading-25;
-    -webkit-font-smoothing:antialiased;
+    @apply p-0 m-0 font-body text-16 leading-25;
     }
 
     a {
@@ -25,7 +24,7 @@
 
     p,
     p a {
-    @apply font-body text-15 leading-25 m-0 tracking-normal !text-black;
+    @apply font-body text-16 leading-20 m-0 tracking-normal;
     }
 
     h1,
@@ -70,12 +69,34 @@
     }
 }
 
+@layer components {
+ .button {
+    @apply bg-green px-20 py-10 text-16 leading-24 text-white block !cursor-pointer; 
+ }
+}
+
 @layer utilities {
 
 /*heading style start*/ 
-.header__heading .header__inline-menu li a.list-menu__item {
-    @apply text-20 font-heading leading-30 text-dark_blue; 
+.header__inline-menu li a {
+    @apply text-20 font-heading leading-30 text-dark_blue capitalize; 
 }
 /*heading style end*/ 
+/* iamge with text start */
+
+.image-with-text h2 {
+    @apply text-dark_blue font-400; 
+}
+.image-with-text p {
+    @apply text-grey;
+}
+.image-with-text__text-item.grid__item .image-with-text__content--desktop-left  {
+    @apply desktop:!pr-100 !pr-20 mdscreen5:!pt-30;
+}
+.image-with-text__text-item.grid__item .image-with-text__content--desktop-right  {
+    @apply desktop:!pl-100 !pl-20 mdscreen5:!pt-50;
+}
+/* iamge with text end */
+
 }
 
